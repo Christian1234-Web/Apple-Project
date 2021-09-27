@@ -1,0 +1,946 @@
+
+*{
+    margin: 0;padding: 0;
+   
+}
+
+/* nav section  */
+body{
+    max-width: 1100px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.nav {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .logo img {
+    width: 40px;
+    padding: 5px;
+    color: white;
+}
+
+.nav .list {
+    display: flex;
+    padding: 10px;
+}
+
+.nav .list li {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav .list li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* iphone12 section */
+
+.iphone12 {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../Home/img1.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+
+.iphone12 h1 {
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.iphone12 p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.iphone12 a {
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.iphone12 a:hover {
+    background-color: transparent;
+}
+
+
+/* iphone12pro section */
+
+.iphone12pro {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../Home/img2.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: white;
+}
+
+.iphone12pro h2 {
+    padding-top: 60px;
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+.iphone12pro p {
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.iphone12pro a {
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-bottom: px;
+    padding-left: 100px;
+}
+
+.iphone12pro a:hover {
+    background-color: transparent;
+}
+
+
+/* ipadair section */
+
+.ipadair {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../Home/img3.jpg');
+    background-size: cover;
+    background-position: top;
+    color: black;
+}
+
+.ipadair h3 {
+    padding-bottom: 30px;
+    font-size: 50px;
+    padding-left: 550px;
+}
+
+.ipadair p {
+    padding-bottom: 20px;
+    font-size: 25px;
+    padding-left: 550px;
+}
+
+.ipadair a {
+    color: rgb(81, 36, 247);
+    text-decoration: none;
+    border-radius: 5px;
+    padding-bottom: 60px;
+    padding-left: 550px;
+}
+
+.ipadair a:hover {
+    background-color: transparent;
+}
+
+
+/* ipad section */
+
+.ipad {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../home/img4.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: black;
+}
+
+.ipad h4 {
+    padding-top: 20px;
+    font-size: 50px;
+    font-variant-position: super;
+    margin: auto;
+}
+
+.ipad p {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.ipad a {
+    color: rgb(81, 36, 247);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 80px;
+}
+
+.ipad a:hover {
+    background-color: transparent;
+}
+
+
+/* ipad section */
+
+.ipad {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../home/img4.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: black;
+}
+
+.ipad h4 {
+    padding-top: 200px;
+    font-size: 50px;
+    font-variant-position: super;
+    margin: auto;
+}
+
+.ipad p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.ipad a {
+    color: rgb(81, 36, 247);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.ipad a:hover {
+    background-color: transparent;
+}
+
+
+/* ipad section */
+
+.section .ipad {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../home/img4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+.section .ipad h4 {
+    padding-top: 200px;
+    font-size: 55px;
+    font-style: initial;
+    font-variant-position: normal;
+    color: black;
+}
+
+.section .ipad p {
+    padding-top: 80px;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.section .ipad ul {
+    padding-top: 130px;
+    padding: o.4px
+}
+
+.section .ipad a {
+    color: rgb(81, 36, 247);
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 60px;
+    padding: 10px;
+}
+
+.ipad a:hover {
+    background-color: transparent;
+}
+
+
+/* pad section */
+
+.pad {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../Home/img5.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: white;
+}
+
+.pad h5 {
+    padding-top: 100px;
+    font-size: 50px;
+    font-variant-position: super;
+    margin: auto;
+}
+
+.pad p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.pad a {
+    color: rgb(81, 36, 247);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.ipad a:hover {
+    background-color: transparent;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* macbook section */
+
+.macbook {
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-image: url('../Home/img6.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.macbook h6 {
+    padding-top: 30px;
+    font-size: 50px;
+    font-style: initial;
+    color: white;
+    margin: auto;
+}
+
+.macbook p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.macbook a {
+    color: rgb(81, 36, 247);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.macbook a:hover {
+    background-color: transparent;
+}
+
+
+/* book section */
+
+.book {
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-image: url('../Home/img7.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: white;
+    object-fit: cover;
+}
+
+.book h1 {
+    padding-top: 80px;
+    font-size: 50px;
+    margin: auto;
+}
+
+.book p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.book a {
+    color: rgb(81, 36, 247);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.book a:hover {
+    background-color: transparent;
+}
+
+.cool {
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: normal;
+    padding: 10px;
+    text-align: center;
+}
+
+.cool .background img {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* magic section */
+
+.magic {
+    text-align: justify;
+    padding-left: 150px;
+    border: 1px solid aliceblue;
+    border-width: 10%;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+
+/* near section*/
+
+.near {
+    padding-left: 150px;
+    padding-top: -120px;
+    text-align: top;
+}
+
+
+/*Explore section*/
+
+.explore {
+    padding-left: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.explore .col {
+    width: 100%;
+    padding: 50px;
+}
+
+
+/* footer section*/
+
+.footer {
+    padding-left: 140px;
+    width: 70%;
+    display: flex;
+}
+
+.footer .foo {
+    width: 100%;
+    padding: 10px;
+    border-right: 1px solid rgb(42, 127, 211);
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+
+/* nav1 section  */
+
+.nav1 {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 .logo img {
+    width: 40px;
+    padding: 2px;
+    padding-top: 60px;
+}
+
+.nav1 .list1 {
+    display: flex;
+    padding: 10px;
+}
+
+.nav1 .list1 li {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav1 .list1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hotter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    text-align: center;
+}
+
+.hotter .hot {
+    width: 22%;
+    padding: 20px;
+}
+
+.hotter .hot img {
+    width: 80%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.hotter .hot a {
+    text-decoration: none;
+}
+
+
+/* iphone12pro1  section */
+
+.iphone12pro1 {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url('../iphone/img1.jpg');
+    background-size: contain;
+    background-position: top;
+    text-align: center;
+    color: white;
+}
+
+.iphone12pro1 .pro1 h1 {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.iphone12pro1 .pro1 p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.iphone12pro1 .pro1 a {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-bottom: px;
+    padding: 10px;
+}
+
+.iphone12pro1 a .pro1 a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 100px;
+}
+
+.iphone12pro1 a:hover {
+    background-color: transparent;
+}
+
+
+/* ipad1  section */
+
+.ipad1 {
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    background-size: 100%;
+    background-position: top;
+    background-image: image-set(0px 50px);
+    text-align: center;
+    color: black;
+}
+
+.ipad1 h1 {
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.ipad1 p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.ipad1 .pad1 a {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-bottom: px;
+    padding: 10px;
+}
+
+.ipad1 a .pad1 a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 100px;
+}
+
+.ipad1 a:hover {
+    background-color: transparent;
+}
+
+.ipad1 .pad1 {
+    width: 100%;
+}
+
+.ipad1 .pad1 .img {
+    width: 100%;
+    height: 160%;
+    object-fit: cover;
+    background-color: whitesmoke;
+}
+
+
+/* which section*/
+
+.which {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* hotter1 section*/
+
+.hotter1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+}
+
+.hotter1 .hot {
+    width: 100%;
+    padding: 50px;
+}
+
+.hotter1 .hot img {
+    width: 25%;
+    height: 160px;
+    object-fit: contain;
+}
+
+.hotter1 .hot a {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding: 10px;
+}
+
+.hotter1 .hot a .learn span {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 100px;
+    background-color: none;
+}
+
+
+/* get section*/
+
+.get {
+    text-align: center;
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+
+/* ipad2 section */
+
+.ipad2 {
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-image: url('../Iphone/img7.jpg');
+    background-size: contain;
+    background-position: 0px 150px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: px;
+}
+
+.ipad2 img {
+    padding-top: 0px 50px;
+}
+
+.ipad2 h4 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 50px;
+    font-style: initial;
+    color: black;
+    margin: 5px;
+}
+
+.ipad2 p {
+    padding-bottom: 200px;
+    font-size: 25px;
+    padding-left: 60px;
+}
+
+.ipad2 a {
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.ipad2 a:hover {
+    background-color: transparent;
+}
+
+
+/*pad2 section */
+
+.pad2 {
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-image: url('../Iphone/img8.jpg');
+    background-size: contain;
+    background-position: top;
+    text-align: center;
+    color: white;
+    object-fit: cover;
+}
+
+.pad2 img {
+    padding-right: 80px;
+}
+
+.pad2 h5 {
+    padding-top: 3px;
+    font-size: 50px;
+    margin: 5px;
+}
+
+.ipad2 p {
+    padding-bottom: 100px;
+    font-size: 25px;
+    padding-left: 80px;
+}
+
+.pad2 a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.pad2 a:hover {
+    background-color: transparent;
+}
+
+
+/* para section*/
+
+.para {
+    padding-left: 150px;
+}
+
+
+/*Explore section*/
+
+.explore2 {
+    padding-left: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.explore2 .col {
+    width: 100%;
+    padding: 50px;
+}
+
+.explore2 .col a {
+    text-decoration: none;
+}
+
+
+/* footer section*/
+
+.footer1 {
+    padding-left: 140px;
+    width: 70%;
+    display: flex;
+}
+
+.footer1 .foo {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(42, 127, 211);
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+
+/* nav2 section  */
+
+.nav2 {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 .logo img {
+    width: 40px;
+    padding: 5px;
+}
+
+.nav2 .list2 {
+    display: flex;
+    padding: 10px;
+}
+
+.nav2 .list2 li {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav2 .list2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* support section */
+
+.support {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-image: url('../Support/img1.jpg');
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+
+.support h1 {
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.support text {
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+/*cool section*/
+
+.cool {
+    padding-left: 70px;
+    width: 100%;
+    display: flex;
+}
+
+.cool .col {
+    width: 100%;
+    padding: 50px;
+}
+
+
+/*coo section*/
+
+.coo {
+    padding-left: 120px;
+    width: 100%;
+    display: flex;
+}
+
+.coo .co {
+    width: 100%;
+    padding: 50px;
+}
+
+
+/*icon8 section*/
+
+.icon8 {
+    width: 100%;
+    padding-left: px;
+    text-align: center;
+}
+
+
+/* beware section*/
+
+.beware {
+    text-align: center;
+}
+
+
+/*Explore1 section*/
+
+.explore1 {
+    padding-left: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.explore1 .col {
+    width: 100%;
+    padding: 50px;
+}
+
+
+/* foooter section*/
+
+.foooter {
+    padding-left: 140px;
+    width: 70%;
+    display: flex;
+}
+
+.foooter .fooo {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(42, 127, 211);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
